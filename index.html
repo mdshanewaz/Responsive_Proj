@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webdesign with HTML + CSS</title>
+    <link rel="shortcut icon" href="img/f.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <span class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </span>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a class="nav-items" href="index.html">HOME</a></li>
+                        <li><a class="nav-items" href="about.html">ABOUT</a></li>
+                        <li><a class="nav-items" href="projects.html">PROJECTS</a></li>
+                        <li><a class="nav-items" href="services.html">SERVICES</a></li>
+                        <li><a class="nav-items" href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </header>
+        <div class="text-box">
+            <h2>World's Biggest Something</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reprehenderit natus soluta, cupiditate cumque, nam laboriosam nihil aliquid quia illum est, vero ad nemo deleniti veniam? Necessitatibus maiores praesentium obcaecati!</p>
+            <a href="about.html" class="head-btn">Visit Us To Know More</a>
+        </div>
+    </div>
+
+    <section class="course">
+        <h2>Courses We Offer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cupiditate eius dolor laudantium, optio aliquid assumenda vero perferendis aspernatur ab ut est nemo nobis officiis excepturi natus tempore quisquam repudiandae.</p>
+        
+        <div class="row">
+            <div class="col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem deleniti dolore dolores eos, aliquid possimus ipsam, sequi accusamus, animi laboriosam praesentium quibusdam! Ducimus iste nihil repellat, modi recusandae tenetur veniam?</p>
+            </div>
+
+            <div class="col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem deleniti dolore dolores eos, aliquid possimus ipsam, sequi accusamus, animi laboriosam praesentium quibusdam! Ducimus iste nihil repellat, modi recusandae tenetur veniam?</p>
+            </div>
+
+            <div class="col">
+                <h3>Graduation</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem deleniti dolore dolores eos, aliquid possimus ipsam, sequi accusamus, animi laboriosam praesentium quibusdam! Ducimus iste nihil repellat, modi recusandae tenetur veniam?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h2>Our Global Campus</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="img/team-1.jpg" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="img/team-2.jpg" alt="">
+                <div class="layer">
+                    <h3>DHAKA</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="img/team-3.jpg" alt="">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/case-study-gallery-2-1200x900.jpg" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus molestias impedit tempore distinctio recusandae omnis.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/case-study-gallery-3-1200x900.jpg" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus molestias impedit tempore distinctio recusandae omnis.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/case-study-gallery-4-1200x900.jpg" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus molestias impedit tempore distinctio recusandae omnis.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <h1>What Our Students Says</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="img/baner.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem qui consequuntur eligendi nulla, commodi architecto voluptatum corrupti animi tenetur debitis eaque possimus iste ea quo fugiat vero, quod laboriosam? Dicta?</p>
+                    <h3>Rahim Uddin</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="img/banner2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem qui consequuntur eligendi nulla, commodi architecto voluptatum corrupti animi tenetur debitis eaque possimus iste ea quo fugiat vero, quod laboriosam? Dicta?</p>
+                    <h3>Karim Uddin</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta">
+        <h1>Enroll For Our Various Courses<br>Anywhere from the world</h1>
+        <a href="contact.html" class="head-btn">CONTACT US</a>
+    </section>
+
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vitae voluptatum nemo deserunt doloribus deleniti omnis id accusamus, saepe quibusdam quod minus unde sint animi reprehenderit dignissimos dolores dicta impedit.</p>
+        <div class="icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa-regular fa-heart"></i> Md Sha Newaz</p>
+    </footer>
+
+    <script>
+        var navlinks = document. getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right= "0"
+        }
+
+        function hideMenu(){
+            navlinks.style.right= "-200px"
+        }
+
+    </script>
+
+</body>
+</html>
